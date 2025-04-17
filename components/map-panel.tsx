@@ -1,8 +1,7 @@
-"use client"
+"use client";
 
 import { useEffect, useRef, useState } from "react"
 import type { Category, Section } from "./story-map"
-import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps"
 import { mockCountyData } from "@/lib/mock-data"
 import CountyMarker from "./county-marker"
 
